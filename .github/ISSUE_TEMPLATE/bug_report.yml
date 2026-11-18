@@ -1,0 +1,22 @@
+name: Bug report / Сообщить об ошибке
+description: Describe a reproducible problem / Опишите проблему
+title: "[Bug] "
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened? / Что произошло?
+      description: Include steps, expected behaviour and actual behaviour. Attach screenshots here. / Шаги, ожидаемый и фактический результат; скриншоты можно перетащить сюда.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: SceneSlicer version / Версия
+    validations:
+      required: true
+  - type: textarea
+    id: system
+    attributes:
+      label: Windows and hardware / Windows и оборудование
+      description: Share only what is relevant; avoid account names, private paths and credentials. / Только нужные сведения, без личных путей и ключей.
