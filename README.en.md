@@ -2,6 +2,8 @@
 
 **Find a scene. Prepare a clip. Bring it into your edit.**
 
+> The first release is being prepared. The description and screenshots are available now; installation packages have not been published yet. The first public release will already include in-app updates.
+
 [Русский](README.md) · [Download for Windows](https://github.com/gogoigor51-tech/SceneSlicer/releases/latest) · [Report an issue](https://github.com/gogoigor51-tech/SceneSlicer/issues/new/choose)
 
 SceneSlicer is a free desktop tool for finding, cutting and preparing video scenes for AMVs and edits. Episodes, characters, collections, colour grading and export share one workspace. No Python installation is required.
