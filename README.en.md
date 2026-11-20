@@ -2,7 +2,7 @@
 
 **Find a scene. Prepare a clip. Bring it into your edit.**
 
-> The first release is being prepared. The description and screenshots are available now; installation packages have not been published yet. The first public release will already include in-app updates.
+> **Public version 1.2.2f · Windows x64.** Free, with an installer and in-app updates.
 
 [Русский](README.md) · [Download for Windows](https://github.com/gogoigor51-tech/SceneSlicer/releases/latest) · [Report an issue](https://github.com/gogoigor51-tech/SceneSlicer/issues/new/choose)
 
@@ -74,12 +74,12 @@ Combine episodes with external audio, delays, subtitles and fonts. Results are s
 
 ## Installation
 
-1. Open the [latest release](https://github.com/gogoigor51-tech/SceneSlicer/releases/latest) and download the Windows x64 package from Assets.
-2. Extract the entire archive into a writable folder. Keep its subfolders beside the executable.
-3. Run `SceneSlicer.exe`. The first public release includes in-app checking and installation of subsequent updates.
+1. Download the [Windows x64 installer](https://github.com/gogoigor51-tech/SceneSlicer/releases/download/v1.2.2f/SceneSlicer-public-1.2.2f-setup.exe).
+2. Run it and choose a folder. No separate Python or FFmpeg installation is required.
+3. Launch SceneSlicer. Future updates can be downloaded and installed inside the app. A portable ZIP is also available among the [release assets](https://github.com/gogoigor51-tech/SceneSlicer/releases/tag/v1.2.2f); extract the entire archive and keep its subfolders.
 4. Set export, cache and preset folders in Settings. Additional models download when needed.
 
-Tested on Windows 11 x64. RIFE and upscaling require a compatible GPU and Vulkan driver. Analysis and processing performance depend on hardware and selected models.
+Tested on Windows11 x64. RIFE and upscaling require a compatible GPU with a working Vulkan driver. Performance depends on hardware and selected models.
 
 ## Updates and feedback
 
@@ -92,3 +92,7 @@ Use Bug report in Settings to describe reproduction steps, expected behaviour an
 The public edition is free. Application source code is not published at this time. Third-party licences are listed in About and included in the distribution's `licenses` folder; their terms remain applicable independently of the application.
 
 Release notes are available in [CHANGELOG](CHANGELOG.md) and in the app. This repository contains documentation and public SceneSlicer releases.
+
+## Third-party components and source code
+
+SceneSlicer uses Qt/PySide under LGPLv3 and standalone FFmpeg programs under GPLv3+. Notices and terms are included in the `licenses` folder. Third-party sources and build instructions are separate [release assets](https://github.com/gogoigor51-tech/SceneSlicer/releases/tag/v1.2.2f); they are not needed for normal installation. See the [source index and instructions](THIRD-PARTY-SOURCES.md).
