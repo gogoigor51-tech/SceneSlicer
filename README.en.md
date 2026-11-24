@@ -2,7 +2,7 @@
 
 **Find a scene. Prepare a clip. Bring it into your edit.**
 
-> **Public version 1.2.2f · Windows x64.** Free, with an installer and in-app updates.
+> **Public version 1.2.3f · Windows x64.** Free, with an installer and in-app updates.
 
 [Русский](README.md) · [Download for Windows](https://github.com/gogoigor51-tech/SceneSlicer/releases/latest) · [Report an issue](https://github.com/gogoigor51-tech/SceneSlicer/issues/new/choose)
 
@@ -72,11 +72,13 @@ Combine episodes with external audio, delays, subtitles and fonts. Results are s
 
 </details>
 
+Face search has per-title anime, other-animation and live-action modes. YuNet/SFace compares actors by their faces. Highly stylised and non-human faces may be missed.
+
 ## Installation
 
-1. Download the [Windows x64 installer](https://github.com/gogoigor51-tech/SceneSlicer/releases/download/v1.2.2f/SceneSlicer-public-1.2.2f-setup.exe).
+1. Download the [Windows x64 installer](https://github.com/gogoigor51-tech/SceneSlicer/releases/download/v1.2.3f/SceneSlicer-public-1.2.3f-setup.exe).
 2. Run it and choose a folder. No separate Python or FFmpeg installation is required.
-3. Launch SceneSlicer. Future updates can be downloaded and installed inside the app. A portable ZIP is also available among the [release assets](https://github.com/gogoigor51-tech/SceneSlicer/releases/tag/v1.2.2f); extract the entire archive and keep its subfolders.
+3. Launch SceneSlicer. Future updates can be downloaded and installed inside the app. A portable ZIP is also available among the [release assets](https://github.com/gogoigor51-tech/SceneSlicer/releases/tag/v1.2.3f); extract the entire archive and keep its subfolders.
 4. Set export, cache and preset folders in Settings. Additional models download when needed.
 
 Tested on Windows11 x64. RIFE and upscaling require a compatible GPU with a working Vulkan driver. Performance depends on hardware and selected models.
